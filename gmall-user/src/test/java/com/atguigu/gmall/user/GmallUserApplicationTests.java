@@ -1,4 +1,4 @@
-package com.atguigu.gmall.luser;
+package com.atguigu.gmall.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
