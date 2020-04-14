@@ -1,15 +1,13 @@
 package com.atguigu.gmall.user.bean;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
+@Entity
+@Table(name = "ums_member")
+public class UmsMember {
 
-//实体类
-public class UmsMembers {
-
-//    @Id
-//  @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String memberLevelId;
     private String username;
