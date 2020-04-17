@@ -14,6 +14,7 @@ import java.util.List;
 
 @Controller
 public class UserController {
+
     //注入UserService类
     @Autowired
     UserService userService;

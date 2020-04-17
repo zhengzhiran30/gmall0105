@@ -1,11 +1,11 @@
-package com.atguigu.gmall.user.service;
+package com.atguigu.gmall.service;
 /**
  * @author zhengzhiran
  * @version 1.0
  * @date 2020/4/14 21:55
  */
-import com.atguigu.gmall.user.bean.UmsMember;
-import com.atguigu.gmall.user.bean.UmsMemberReceiveAddress;
+import com.atguigu.gmall.bean.UmsMember;
+import com.atguigu.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
