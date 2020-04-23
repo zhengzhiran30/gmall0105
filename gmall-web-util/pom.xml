@@ -7,16 +7,18 @@
     <groupId>com.atguigu.gmall</groupId>
     <artifactId>gmall-web-util</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <parent>
-        <artifactId>gmall-parent</artifactId>
         <groupId>com.atguigu.gmall</groupId>
+        <artifactId>gmall-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
+
         <dependency>
-            <groupId>com.aguigu.gmall</groupId>
-            <artifactId>gmall-commom-util</artifactId>
+            <groupId>com.atguigu.gmall</groupId>
+            <artifactId>gmall-common-util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
@@ -24,6 +26,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
+
     </dependencies>
 
 

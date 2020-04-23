@@ -1,10 +1,11 @@
 package com.atguigu.gmall.bean;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 @Entity
 @Table(name = "ums_member")
-public class UmsMember {
+public class UmsMember implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
