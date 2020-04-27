@@ -6,4 +6,4 @@
   
   gmall-user-web 用户服务的service层8080
   
-  
+ 启动前端框架：npm run dev

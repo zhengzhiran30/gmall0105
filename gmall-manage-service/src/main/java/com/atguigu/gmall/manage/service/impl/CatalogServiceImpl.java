@@ -36,6 +36,7 @@ public class CatalogServiceImpl implements CatalogService {
         return pmsBaseCatalog1Mapper.selectAll();
     }
 
+    //二级分类
     @Override
     public List<PmsBaseCatalog2> getCatalog2(String catalogId) {
 
@@ -46,6 +47,7 @@ public class CatalogServiceImpl implements CatalogService {
         return pmsBaseCatalog2s;
     }
 
+    //三级分类
     @Override
     public List<PmsBaseCatalog3> getCatalog3(String catalog2Id) {
         PmsBaseCatalog3 pmsBaseCatalog3 = new PmsBaseCatalog3();

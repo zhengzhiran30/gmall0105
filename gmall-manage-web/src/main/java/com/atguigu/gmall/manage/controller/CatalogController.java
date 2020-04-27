@@ -15,6 +15,7 @@ import java.util.List;
  * @author zhengzhiran
  * @version 1.0
  * @date 2020/4/24 20:21
+ * 查看一二三级分类的商品信息
  */
 @Controller
 @CrossOrigin
@@ -23,6 +24,7 @@ public class CatalogController {
     @Reference
     CatalogService catalogService;
 
+    //属性平台的三级分类
     @RequestMapping("getCatalog3")
     @ResponseBody
     public List<PmsBaseCatalog3> getCatalog3(String catalog2Id){
@@ -31,6 +33,7 @@ public class CatalogController {
         return catalog3s;
     }
 
+    //属性平台的二级分类
     @RequestMapping("getCatalog2")
     @ResponseBody
     public List<PmsBaseCatalog2> getCatalog2(String catalog1Id){
@@ -39,6 +42,7 @@ public class CatalogController {
         return catalog2s;
     }
 
+    //属性平台的一级分类
     @RequestMapping("getCatalog1")
     @ResponseBody
     public List<PmsBaseCatalog1> getCatalog1(){
